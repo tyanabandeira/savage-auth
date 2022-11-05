@@ -4,7 +4,7 @@
 // get all the tools we need
 var express  = require('express');
 var app      = express();
-var port     = process.env.PORT || 8080;
+var port     = process.env.PORT || 3000;
 const MongoClient = require('mongodb').MongoClient
 var mongoose = require('mongoose');
 var passport = require('passport');
@@ -50,5 +50,6 @@ app.use(flash()); // use connect-flash for flash messages stored in session
 
 
 // launch ======================================================================
-app.listen(port);
-console.log('The magic happens on port ' + port);
+app.listen(3000, function() {
+  console.log('listening on 3000')
+})
