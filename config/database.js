@@ -1,6 +1,6 @@
 // config/database.js
 module.exports = {
 
-    'url' : 'mongodb+srv://savage:demo@cluster0.qnvyzeh.mongodb.net/savage-author?retryWrites=true&w=majority', 
-    'dbName': 'savage-author'
+    'url' : 'mongodb+srv://demo:demoday@cluster0.5nbibye.mongodb.net/Serenity?retryWrites=true&w=majority', 
+    'dbName': 'Serenity'
 };
